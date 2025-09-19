@@ -123,7 +123,7 @@ export const mappings = {
 //         role: "system",
 //         content: `You are a professional job interviewer conducting a real-time voice interview with a candidate. Your goal is to assess their qualifications, motivation, and fit for the role.
 
-// Interview Guidelines:
+// interview Guidelines:
 // Follow the structured question flow:
 // {{questions}}
 
