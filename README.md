@@ -35,3 +35,70 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 "# AI-_Mock-interview-Platform" 
+# 🤖 SmartHire – AI Mock Interview Platform  
+
+![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=nextdotjs)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-blue?logo=tailwindcss)
+![Firebase](https://img.shields.io/badge/Firebase-Auth%20%7C%20DB%20%7C%20Storage-orange?logo=firebase)
+![Vapi](https://img.shields.io/badge/Vapi-Voice%20AI-purple)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
+---
+
+## 🚀 Project Overview  
+**SmartHire** is an **AI-powered Mock Interview System** that delivers a **realistic, voice-enabled interview experience** for candidates preparing for technical and HR rounds.  
+Built using **Next.js**, **TailwindCSS**, **Firebase**, and **Vapi Voice AI SDK**, the platform simulates human-like conversations, evaluates responses, and provides detailed AI-generated feedback on communication, technical accuracy, and confidence.
+
+This project bridges the gap between **interview preparation** and **AI-driven evaluation**, making practice sessions more interactive, adaptive, and insightful.
+
+---
+
+## 🎯 Objectives  
+- Enable **AI-based mock interviews** with both text and voice interaction.  
+- Automate **feedback generation** using **Gemini LLM** for content analysis.  
+- Provide **real-time conversation flow** powered by **Vapi’s Voice AI SDK**.  
+- Deliver a scalable and modern **full-stack web experience** using **Next.js + Firebase**.  
+
+---
+
+## 🧩 Tech Stack  
+
+| Layer | Tools / Technologies |
+|-------|-----------------------|
+| **Frontend** | Next.js, TailwindCSS |
+| **Backend & Auth** | Firebase (Auth, Firestore, Storage) |
+| **Voice Interaction** | Vapi Web SDK |
+| **AI Engine** | Google Gemini API |
+| **UI Components** | ShadCN UI, Framer Motion |
+| **Deployment** | Vercel / Firebase Hosting |
+
+---
+
+## ⚙️ System Architecture  
+SmartHire integrates multiple modules that work seamlessly:  
+1. **User Interface (Next.js + Tailwind):** Handles user authentication, interview creation, and feedback visualization.  
+2. **Vapi Integration:** Provides **real-time voice processing**, enabling two-way AI communication between the user and system.  
+3. **Gemini AI:** Generates adaptive questions, analyzes responses, and produces personalized interview feedback.  
+4. **Firebase:** Manages secure authentication, data storage, and session management.  
+
+---
+
+## 🧠 Updated Implementation – Vapi Workflows  
+Vapi recently introduced an update to their **Workflows** feature — you no longer need to create an Assistant and attach a Workflow through the dashboard.  
+Now, Workflows can be **built and managed directly within your application** using the **Vapi Web SDK**, allowing full programmatic control and faster iteration.  
+
+We’ve implemented this updated method in SmartHire, and shared a detailed example on our Learning Platform for community use.  
+
+---
+
+## 📊 Key Features  
+
+✅ **AI-Driven Interview Simulation** – Conducts mock interviews with realistic voice and contextual question flow.  
+✅ **Instant Feedback System** – Evaluates tone, confidence, and technical accuracy using Gemini AI.  
+✅ **Multi-Role Support** – Candidates can choose from multiple job roles and difficulty levels.  
+✅ **Secure Authentication** – Firebase ensures user-specific data privacy and secure access.  
+✅ **Interactive UI** – Clean, minimal, and responsive design built with TailwindCSS & ShadCN UI.  
+✅ **Analytics & Insights** – Displays performance history and improvement suggestions.  
+
+
+
